@@ -9,7 +9,7 @@
 
 def main():
     # Variables
-    user_num_string = input("Please input a random number: ")
+    user_num_string = input("Please input a whole number: ")
     counter = 0
     total_sum = 0
 
