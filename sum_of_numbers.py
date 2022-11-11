@@ -11,7 +11,7 @@ def main():
     # Variables
     user_num_string = input("Please input a positive number: ")
     counter = 0
-    total_product = 0
+    total_sum = 0
 
     # Makes sure user imputed an integer
     try:
@@ -31,11 +31,11 @@ def main():
         else:
             # adds every number until the user's num
             while counter <= user_num_int:
-                total_product += counter
+                total_sum += counter
                 counter += 1
 
             # displays the sum of all the numbers until user's number
-            print(f"The sum of all the numbers until {user_num_int} is {total_product}")
+            print(f"The sum of all the numbers until {user_num_int} is {total_sum}")
 
     finally:
         print("thank you for using this program!")
