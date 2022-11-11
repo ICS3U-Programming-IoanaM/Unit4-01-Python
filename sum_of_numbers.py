@@ -9,7 +9,7 @@
 
 def main():
     # Variables
-    user_num_string = input("Please input a whole number: ")
+    user_num_string = input("Please input a positive number: ")
     counter = 0
     total_sum = 0
 
@@ -19,13 +19,13 @@ def main():
 
     # if user didn't enter a number
     except Exception:
-        print("Input invalid! Please enter a WHOLE number.")
+        print("Input invalid! Please enter a POSITIVE number.")
 
     # user imputed a number
     else:
         # checks to make sure user imputed a whole number
-        if user_num_int < 0:
-            print("Input invalid! Please enter a WHOLE number.")
+        if user_num_int <= 0:
+            print("Input invalid! Please enter a POSITIVE number.")
 
         # user imputed a whole number
         else:
