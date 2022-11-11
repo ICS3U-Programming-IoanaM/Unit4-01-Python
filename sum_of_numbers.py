@@ -33,12 +33,13 @@ def main():
             while counter <= user_num_int:
                 total_sum += counter
                 counter += 1
-            
+
             # displays the sum of all the numbers until user's number
             print(f"The sum of all the numbers until {user_num_int} is {total_sum}")
 
     finally:
         print("thank you for using this program!")
+
 
 if __name__ == "__main__":
     main()
